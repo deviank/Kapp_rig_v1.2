@@ -2,7 +2,14 @@
     "theme": {
       "slug": "kapprig",
       "name": "Kapp rig",
-      "author": "Devian Kapp",
+      "author": "Devian Kapp"
       
-    }
+    },
+    "dev": {
+      "browserSync": {
+        "live": true,
+        "proxyURL": "http://localhost/kappscores_wprig/",
+        "bypassPort": "8181",
+        "https": false
+      }
 }
